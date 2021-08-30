@@ -55,7 +55,7 @@ jobs:
         env:
           HD_API_ID: ${{secrets.API_ID}}
           HD_API_HASH: ${{secrets.API_HASH}}
-          HD_TG_BOHD_OWNER_IDT_TOKEN: ${{secrets.TG_BOT_TOKEN}}
+          HD_TG_BOT_TOKEN: ${{secrets.TG_BOT_TOKEN}}
           HD_AUTH_USERS: ${{secrets.AUTH_USERS}}
           HD_OWNER_ID: ${{secrets.OWNER_ID}}
           HD_WEBHOOK: ${{secrets.WEBHOOK}}
